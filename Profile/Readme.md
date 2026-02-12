@@ -5,7 +5,6 @@
 
 Synapse AntiCheat is an advanced automated system that analyzes TF2 gameplay to detect cheaters in real-time with high accuracy. Using our replay analyzer and integrated community databases, it identifies suspicious behavior patterns and helps keep your games clean. Synapse also serves as a comprehensive TF2 launcher with all known launch arguments pre-configured and ready to customize.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)
 ![Status](https://img.shields.io/badge/status-Active%20Development-green)
 
