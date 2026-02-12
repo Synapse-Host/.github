@@ -470,7 +470,7 @@ We focus development on platforms we can properly test and support.
 
 - [ ] Enhanced detection algorithms
 - [ ] Improved heuristic patterns
-- [ ] Additional cheat signature detection
+- [x] Additional cheat signature detection
 - [ ] **Hive Network** - Multi-user instance linking
 - [ ] Expanded community features
 - [ ] Performance optimizations
