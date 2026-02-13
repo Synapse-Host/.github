@@ -618,7 +618,7 @@ Please open an issue or pull request on GitHub!
 <summary><b>Getting Help</b></summary>
 
 - **Issues:** Report bugs via GitHub Issues
-- **Discord:** Join our community server (link here)
+- **Discord:** [Join our community server](https://discord.gg/PPTyhTAb6r)
 - **Documentation:** Check our Wiki for guides
 - **FAQ:** See above for common questions
 
