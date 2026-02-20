@@ -132,7 +132,7 @@ Synapse AntiCheat is an advanced automated system that analyzes TF2 gameplay to 
 
 ### ◆ Snap Aimbot
 
-- [x] **Snap aimbot detected**
+- [✅] **Snap aimbot detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -201,7 +201,7 @@ The snap aimbot instantly teleports the viewangle to a target hitbox with no int
 
 ### ◆ Smooth Aimbot
 
-- [x] **Smooth aimbot detected**
+- [✅] **Smooth aimbot detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -278,7 +278,7 @@ The smooth aimbot interpolates the viewangle toward a target over several ticks 
 
 ### ◆ Silent Aim
 
-- [x] **Silent aim detected**
+- [✅] **Silent aim detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -330,7 +330,7 @@ Silent aim fires at a target without visually moving the crosshair. The player's
 
 ### ◆ Aim Assist / Correction
 
-- [x] **Aim assist / correction detected**
+- [✅] **Aim assist / correction detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -391,7 +391,7 @@ Aim assist performs small angle corrections on the player's existing aim — it 
 
 ### ◆ Triggerbot
 
-- [x] **Triggerbot detected**
+- [✅] **Triggerbot detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -464,7 +464,7 @@ A triggerbot automatically fires when the crosshair is over an enemy hitbox. The
 
 ### ◆ Direct Hit Prediction
 
-- [x] **Projectile direct-hit aimbot detected**
+- [✅] **Projectile direct-hit aimbot detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -519,7 +519,7 @@ Predicts target position at projectile arrival time and aims to produce a direct
 
 ### ◆ Splash Optimisation
 
-- [x] **Projectile splash-optimisation aimbot detected**
+- [✅] **Projectile splash-optimisation aimbot detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -558,7 +558,7 @@ Rather than aiming for direct hits, this variant targets the ground or wall posi
 
 ### ◆ Auto-Detonate
 
-- [x] **Auto-detonate (stickybomb) detected**
+- [✅] **Auto-detonate (stickybomb) detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -596,7 +596,7 @@ Automatically detonates stickybombs at the optimal frame — when a target walks
 
 ### ◆ Auto-Airblast
 
-- [x] **Auto-airblast detected**
+- [✅] **Auto-airblast detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -640,7 +640,7 @@ Automatically airblasts incoming projectiles. Used by Pyro to deflect rockets, s
 
 ### ◆ Force Crits
 
-- [x] **Force crits detected**
+- [✅] **Force crits detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -683,7 +683,7 @@ Manipulates TF2's crit RNG to force crits on every shot or at an inflated rate.
 
 ### ◆ Melee Always Crit
 
-- [x] **Melee always-crit detected**
+- [✅] **Melee always-crit detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -709,7 +709,7 @@ Forces melee weapons to always deal critical hits regardless of normal condition
 
 ### ◆ Avoid Random Crits
 
-- [x] **Random crit avoidance detected**
+- [✅] **Random crit avoidance detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -739,7 +739,7 @@ Suppresses fire on ticks where a random crit would have been granted, preventing
 
 ## Spread Removal (NoSpread)
 
-- [x] **Spread removal detected**
+- [✅] **Spread removal detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -787,7 +787,7 @@ Removes or reduces bullet spread, making every bullet go precisely where the cro
 
 ## Backtrack
 
-- [x] **Backtrack detected**
+- [✅] **Backtrack detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -848,7 +848,7 @@ Allows hitting enemies at positions they occupied several ticks ago by exploitin
 
 ### ◆ Plain Fakelag
 
-- [x] **Plain fakelag detected**
+- [✅] **Plain fakelag detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -878,7 +878,7 @@ Holds packets for a fixed number of ticks then releases them all at once, creati
 
 ### ◆ Random Fakelag
 
-- [x] **Random fakelag detected**
+- [✅] **Random fakelag detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -905,7 +905,7 @@ Holds packets for a random number of ticks up to a configured maximum, making th
 
 ### ◆ Adaptive / Conditional Fakelag
 
-- [x] **Adaptive fakelag detected**
+- [✅] **Adaptive fakelag detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -948,7 +948,7 @@ Fakelag that activates or changes behavior conditionally — e.g. only while sho
 
 ### ◆ Pitch Anti-Aim
 
-- [x] **Pitch anti-aim detected**
+- [✅] **Pitch anti-aim detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -988,7 +988,7 @@ Sets the player's pitch angle to an invalid or extreme value to distort the head
 
 ### ◆ Yaw Anti-Aim — Static / Offset
 
-- [x] **Static yaw anti-aim detected**
+- [✅] **Static yaw anti-aim detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1015,7 +1015,7 @@ Sets the yaw to a fixed offset from the player's movement direction to present t
 
 ### ◆ Yaw Anti-Aim — Spin
 
-- [x] **Spin yaw anti-aim detected**
+- [✅] **Spin yaw anti-aim detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1051,7 +1051,7 @@ Continuously rotates the yaw at high speed to create an unpredictable, constantl
 
 ### ◆ Yaw Anti-Aim — Jitter
 
-- [x] **Jitter yaw anti-aim detected**
+- [✅] **Jitter yaw anti-aim detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1078,7 +1078,7 @@ Rapidly alternates the yaw between two fixed angles every tick or every N ticks,
 
 ### ◆ Yaw Anti-Aim — Edge / Peek-based
 
-- [x] **Edge / peek-based yaw anti-aim detected**
+- [✅] **Edge / peek-based yaw anti-aim detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1105,7 +1105,7 @@ Dynamically adjusts yaw to expose the minimum possible hitbox profile to each vi
 
 ### ◆ Fake Yaw (Desync)
 
-- [x] **Fake yaw / desync detected**
+- [✅] **Fake yaw / desync detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1140,7 +1140,7 @@ Creates a discrepancy between the visual body yaw opponents see and the real yaw
 
 ### ◆ Minwalk
 
-- [x] **Minwalk anti-aim detected**
+- [✅] **Minwalk anti-aim detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1166,7 +1166,7 @@ Moves at the minimum speed that still counts as movement (~5 HU/s), reducing the
 
 ## Doubletap / Warp
 
-- [x] **Doubletap / warp detected**
+- [✅] **Doubletap / warp detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1229,7 +1229,7 @@ Fires a weapon twice within a single server tick window or sends movement comman
 
 ## Speedhack
 
-- [x] **Speedhack detected**
+- [✅] **Speedhack detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1297,7 +1297,7 @@ Manipulates the client-side game clock to move faster than server physics allows
 
 ### ◆ Static Offset Resolver
 
-- [ ] **Static offset resolver detected**
+- [🚧] **Static offset resolver detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1323,7 +1323,7 @@ Applies a fixed angular offset to the target's visible yaw, assuming the anti-ai
 
 ### ◆ Cycling Resolver
 
-- [ ] **Cycling resolver detected**
+- [🚧] **Cycling resolver detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1350,7 +1350,7 @@ Cycles through multiple possible yaw offsets on successive shots until a hit reg
 
 ### ◆ View-Based Resolver
 
-- [ ] **View-based resolver detected**
+- [🚧] **View-based resolver detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1375,7 +1375,7 @@ Uses the direction the anti-aimer appears to be looking (their networked eye pos
 
 ### ◆ Minwalk Resolver
 
-- [ ] **Minwalk resolver detected**
+- [🚧] **Minwalk resolver detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1407,7 +1407,7 @@ Detects whether the target is using minwalk and adjusts resolver behavior accord
 
 ### ◆ Player ESP
 
-- [x] **Player ESP (behavioral) detected**
+- [✅] **Player ESP (behavioral) detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1461,7 +1461,7 @@ Displays enemy positions through walls. Leaves behavioral traces via pre-aim, ro
 
 ### ◆ Object / Pickup ESP
 
-- [ ] **Object / Pickup ESP (behavioral) detected**
+- [❌] **Object / Pickup ESP (behavioral) detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1487,7 +1487,7 @@ Displays health pack, ammo, and resupply positions through walls. Leaves navigat
 
 ### ◆ Spy / Cloak ESP
 
-- [x] **Spy / Cloak ESP (behavioral) detected**
+- [✅] **Spy / Cloak ESP (behavioral) detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1541,7 +1541,7 @@ Reveals cloaked or disguised Spy positions. Extremely high-confidence when a pla
 
 ### ◆ Bunny Hop Hack
 
-- [x] **Bunny hop hack detected**
+- [✅] **Bunny hop hack detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1569,7 +1569,7 @@ Automatically jumps on the exact first tick of being grounded, achieving near-pe
 
 ### ◆ Strafe Hack
 
-- [x] **Strafe hack / auto-strafe detected**
+- [✅] **Strafe hack / auto-strafe detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1595,7 +1595,7 @@ Automatically synchronises mouse movement with strafe keys to achieve optimal ai
 
 ### ◆ EdgeJump
 
-- [ ] **EdgeJump hack detected**
+- [🚧] **EdgeJump hack detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1621,7 +1621,7 @@ Automatically jumps on the last possible grounded tick before walking off a ledg
 
 ### ◆ CTap
 
-- [x] **CTap hack detected**
+- [✅] **CTap hack detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1648,7 +1648,7 @@ Automatically inputs a 1–2 tick crouch on landing to negate fall damage.
 
 ### ◆ Auto Rocket Jump
 
-- [x] **Auto rocket jump detected**
+- [✅] **Auto rocket jump detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1674,7 +1674,7 @@ Automatically executes the crouch + fire + jump input sequence for optimal rocke
 
 ### ◆ AutoPeek
 
-- [x] **AutoPeek detected**
+- [✅] **AutoPeek detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1701,7 +1701,7 @@ Automatically moves the player out to take a shot then returns them to cover, mi
 
 ### ◆ FastStop / FastAccelerate
 
-- [x] **FastStop / FastAccelerate detected**
+- [✅] **FastStop / FastAccelerate detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1731,7 +1731,7 @@ Rapidly reduces or increases movement speed beyond what normal input allows by m
 
 ### ◆ NavBot (Pathfinding Bot)
 
-- [x] **NavBot / pathfinding bot detected**
+- [✅] **NavBot / pathfinding bot detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1773,7 +1773,7 @@ Uses TF2's navigation mesh to automatically pathfind to objectives, health, and 
 
 ### ◆ Followbot
 
-- [x] **Followbot detected**
+- [✅] **Followbot detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1812,7 +1812,7 @@ Automatically follows a specific target player and mimics their movement or main
 
 ### ◆ Auto-Queue / Session Management
 
-- [ ] **Auto-queue / session cycling bot detected**
+- [❌] **Auto-queue / session cycling bot detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1843,7 +1843,7 @@ Automatically manages queue, map selection, and reconnection to maintain continu
 
 ### ◆ AutoHeal / Target Prioritization
 
-- [ ] **AutoHeal / target prioritization detected**
+- [🚧] **AutoHeal / target prioritization detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1869,7 +1869,7 @@ Automatically switches heal targets based on an optimal priority algorithm rathe
 
 ### ◆ AutoVaccinator
 
-- [x] **AutoVaccinator detected**
+- [✅] **AutoVaccinator detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1896,7 +1896,7 @@ Automatically switches the Vaccinator's damage resist type to match incoming dam
 
 ### ◆ Auto-Uber Deployment
 
-- [ ] **Auto-Uber deployment detected**
+- [🚧] **Auto-Uber deployment detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1922,7 +1922,7 @@ Automatically deploys Uber at a configured health threshold or in response to an
 
 ### ◆ Auto-Arrow (Crusader's Crossbow)
 
-- [ ] **Auto-arrow (Crusader's Crossbow) detected**
+- [🚧] **Auto-arrow (Crusader's Crossbow) detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1952,7 +1952,7 @@ Automatically aims the Crossbow at injured teammates, accounting for projectile 
 
 ### ◆ Auto-Repair
 
-- [ ] **Auto-repair detected**
+- [❌] **Auto-repair detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -1978,7 +1978,7 @@ Automatically switches to wrench and begins repairing buildings the instant they
 
 ### ◆ Auto-Upgrade
 
-- [ ] **Auto-upgrade detected**
+- [❌] **Auto-upgrade detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -2008,7 +2008,7 @@ Automatically upgrades buildings at exactly the minimum required metal threshold
 
 ### ◆ AutoBackstab
 
-- [x] **AutoBackstab detected**
+- [✅] **AutoBackstab detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -2047,7 +2047,7 @@ Automatically executes a backstab on the first tick a valid backstab angle is ac
 
 ### ◆ Anti-Backstab Detection Bypass
 
-- [x] **Anti-backstab evasion (Razorback) detected**
+- [✅] **Anti-backstab evasion (Razorback) detected**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -2073,9 +2073,9 @@ Automatically detects when a target has the Razorback equipped and avoids wastin
 
 ## Account / Meta Signals
 
-- [x] **Suspicious account profile**
-- [x] **Cross-session performance anomaly**
-- [x] **Bot network / coordinated account signature**
+- [✅] **Suspicious account profile**
+- [✅] **Cross-session performance anomaly**
+- [✅] **Bot network / coordinated account signature**
 
 <details>
 <summary>📋 Detection Methods</summary>
@@ -2535,12 +2535,12 @@ We focus development on platforms we can properly test and support.
 ## 🔮 Roadmap
 
 - [ ] Enhanced detection algorithms
-- [x] Improved heuristic patterns
-- [x] Additional cheat signature detection
+- [✅] Improved heuristic patterns
+- [✅] Additional cheat signature detection
 - [ ] **Hive Network** - Multi-user instance linking
 - [ ] Expanded community features
 - [ ] Performance optimizations
-- [x] Advanced replay analyzer capabilities
+- [✅] Advanced replay analyzer capabilities
 
 ---
 
