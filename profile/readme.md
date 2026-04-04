@@ -1,45 +1,49 @@
+# TOTAL SOURCE SUPPORT!
+
 ### 18K Tracked Convicts!
 
 # Synapse AntiCheat
 > In Development, Do not expect a release anytime soon
 
-**Bleeding-edge automated cheat detection & launcher for Team Fortress 2**
+**Bleeding-edge automated cheat detection & launcher for Source Games**
 
-Synapse AntiCheat is an advanced automated system that analyzes TF2 gameplay to detect cheaters in real-time with high accuracy. Using our replay analyzer and integrated community databases, it identifies suspicious behavior patterns and helps keep your games clean. Synapse also serves as a comprehensive TF2 launcher with all known launch arguments pre-configured and ready to customize.
+SAC is an attempt at an advanced automated system that analyzes gameplay to detect cheaters in real-time with high accuracy with a community database  
+It identifies cheat patterns and known bad actors to keep your games clean!  
+Synapse also serves as a comprehensive launcher with all known launch arguments pre-configured and ready to customize.
 
-![Status](https://img.shields.io/badge/status-Active%20Development-green)
+![Status](https://img.shields.io/badge/status-Early%20Alpha-green)
 
-> **⚠️ Important:** Synapse will forever be free software. If you have purchased it, you have been scammed and should report it to us immediately!
+> **⚠️ Important:** Synapse IS NOT PUBLIC YET, Stop downloading malware!
 
 ---
 
 ## 🎯 Features
 
 ### Automated Detection Engine
-- **Real-time replay analysis** - No second TF2 instance required by default!
+- **Real-time replay analysis** - No second instance required by default!
 - Multi-method detection system with comprehensive cheat coverage
 - Confidence-based rating system verified through human review
 - Automatic reporting with demo file evidence
 
-### Integrated TF2 Launcher
+### Integrated Game Launcher
 - **All known launch arguments** pre-configured and ready to use
 - **Automatic configuration** of required settings for Synapse
 - **User-customizable** launch options for personal preference
-- **One-click launch** straight into TF2 with optimal settings
+- **One-click launch** straight in with optimal settings
 
 ---
 
 ### Integrated Database Systems
 
 <details>
-<summary><b>Supported External Databases</b></summary>
+<summary><b>TF2 Supported External Databases</b></summary>
 
 - **MegaAntiCheat (MAC)** - Utilize MAC's database with your masterbase key
 - **TF2BD Playerlists** - Import and use existing TF2 Bot Detector lists and rulesets
 - **SteamHistory API** - Enhanced user tracking (requires API key)
   - Provides SourceBans integration automatically
   - Shows SourceMod AntiCheat bans
-  - Keyword-based ban detection
+  - Keyword-based flagging
 - **Steam Web API** - Two methods available:
   - RCON-based data gathering (TF2BD-style)
   - Steam Web API key (recommended)
@@ -103,7 +107,7 @@ Synapse AntiCheat is an advanced automated system that analyzes TF2 gameplay to 
 
 **Optional: Offload Analysis to Secondary System**
 Want maximum performance on your main gaming machine? You can optionally leverage a spare system on your local network to handle replay analysis:
-- Second computer on the same local network (or connected via Tailscale/similar)
+- Second computer on the same local network or "local" meshes
 - Synapse provides everything needed for setup
 - Keeps your gaming system at peak performance
 - Analysis workload completely offloaded
@@ -112,8 +116,8 @@ Want maximum performance on your main gaming machine? You can optionally leverag
 
 ## 🚀 How It Works
 
-1. **Launch TF2** - Synapse serves as your TF2 launcher with optimized settings
-2. **Game Monitoring** - Synapse connects to your TF2 instance via RCON
+1. **Launch Synapse** - Synapse serves as your game launcher with optimized settings
+2. **Game Monitoring** - Synapse connects to your instance via RCON
 3. **Replay Analysis** - Advanced analyzer processes gameplay in real-time (on your machine or optional secondary system)
 4. **Multi-Database Checking** - Cross-references players against multiple databases
 5. **Detection Engine** - Analyzes gameplay for known cheat signatures and suspicious patterns
@@ -126,7 +130,7 @@ Want maximum performance on your main gaming machine? You can optionally leverag
 ## 📋 Installation
 
 ### Prerequisites
-- Team Fortress 2 installed
+- Any Source Game with RCON
 - RCON access (Synapse provides setup instructions if connection fails)
 
 ### Optional API Keys (Recommended)
@@ -147,9 +151,9 @@ Want maximum performance on your main gaming machine? You can optionally leverag
 6. Start playing!
 
 Synapse can:
-- **Automatically connect to TF2** - Links to your running game instance
+- **Automatically connect to your games** - Links to your running game instance
 - **Guide RCON setup** - Provides instructions without requiring game restart
-- **Import existing lists** - Load your TF2BD playerlists and rulesets
+- **Import existing lists** - Load exiting lists from various providers (TF2 Mainly)
 
 </details>
 
@@ -211,7 +215,7 @@ Synapse can:
 ❌ **What We DON'T Auto-Convict On:**
 - VAC bans alone (too many false positives, e.g., ReShade)
 - Game bans alone (can be arbitrary)
-- TF2BD or MAC listings alone (not curated by us)
+- 3rd Party Listings alone (not curated by us)
 - Inventory value (cheaters use expensive items to appear legit)
 - Reputation sites alone (easily manipulated)
 - Account age alone (new players aren't cheaters by default)
@@ -228,7 +232,7 @@ Our confidence ratings are based on:
 - Community feedback and manual reviews
 
 **Important Notes:**
-- TF2BD lists and MAC convictions strengthen our analysis but don't result in auto-conviction
+- 3rd Party convictions strengthen our analysis but don't result in auto-conviction
 - We only sync users that **Synapse itself** has convicted to our database
 - Manual markings are **NOT** synced to prevent abuse
 - Users can share custom lists, but these should be taken with a grain of salt
@@ -253,7 +257,7 @@ This is a permanent restriction because:
 - We detect blacklisted users by our own metrics
 - Local countermeasures are placed on the system upon detection
 - Once detected, the system stays detected (cannot be bypassed)
-- **Zero tolerance policy:** If we detect a cheat injected into TF2 while using Synapse, you will be automatically convicted AND blacklisted
+- **Zero tolerance policy:** If we detect a cheat injected while using Synapse, you will be automatically convicted AND blacklisted
 - We will NOT disclose how we detect injected cheats or blacklisted users
 
 **If you've been blacklisted:**
@@ -318,7 +322,7 @@ Simply disable replay analysis in settings. You'll still benefit from the commun
 - **Manual Review System** - Submit edge cases for community analysis
 - **Evidence Storage** - Automatic demo file preservation and reporting
 - **Chat Integration** - Alert other players to convicted cheaters
-- **Hive Network** *(Coming Soon)* - Link multiple Synapse instances together!
+- **Hive Network** - Link multiple Synapse instances together!
   - Perfect for LAN parties or networked play
   - Works over local networks or via Tailscale/similar
   - Share a single analyst system across multiple users
@@ -378,7 +382,7 @@ Reputation can be easily manipulated and is not reliable as a primary indicator.
 - Manually marked cheaters **will NOT** be synced to our database
 - Only Synapse-detected convictions are shared
 - User-shared lists should be treated as unverified
-- Use responsibly and in accordance with server rules and TF2's Terms of Service
+- Use responsibly and in accordance with server rules and Valve's Terms of Service
 
 </details>
 
@@ -411,7 +415,7 @@ We focus development on platforms we can properly test and support.
 - [ ] Enhanced detection algorithms
 - ✅ Improved heuristic patterns
 - ✅ Additional cheat signature detection
-- [ ] **Hive Network** - Multi-user instance linking
+- ✅ **Hive Network** - Multi-user instance linking
 - [ ] Expanded community features
 - [ ] Performance optimizations
 - ✅ Advanced replay analyzer capabilities
@@ -421,9 +425,9 @@ We focus development on platforms we can properly test and support.
 ## 🤔 FAQ
 
 <details>
-<summary><b>Do I have to use Synapse as my TF2 launcher?</b></summary>
+<summary><b>Do I have to use Synapse as my launcher?</b></summary>
 
-No! Synapse can work with TF2 instances launched by any method. However, using Synapse as your launcher provides:
+No! Synapse can work with instances launched by any method. However, using Synapse as your launcher provides:
 - Automatic configuration of required settings
 - All known launch arguments pre-configured
 - Easy customization of launch options
@@ -436,7 +440,7 @@ You can still use Steam, shortcuts, or other launchers if you prefer.
 <details>
 <summary><b>Will this get me VAC banned?</b></summary>
 
-No. Synapse AntiCheat does not modify game files or memory. It only analyzes demo files and RCON data, which are completely legitimate uses of TF2's built-in features.
+No. Synapse AntiCheat does not modify game files or memory. It only analyzes demo files and RCON data, which are completely legitimate uses of Source's built-in features.
 
 </details>
 
@@ -448,7 +452,7 @@ Yes! Synapse is perfect for server administrators. It can automatically kick con
 </details>
 
 <details>
-<summary><b>Do I still need a second computer or TF2 instance?</b></summary>
+<summary><b>Do I still need a second computer or instance?</b></summary>
 
 No! Our new replay analyzer eliminates this requirement. Synapse now works seamlessly with just your main game instance.
 
@@ -467,16 +471,16 @@ False positives are possible with any automated system. That's why we:
 </details>
 
 <details>
-<summary><b>Will my TF2BD lists work with Synapse?</b></summary>
+<summary><b>Will my 3rd Party Lists work with Synapse?</b></summary>
 
-Yes! Synapse can import and use TF2BD playerlists and rulesets. These help strengthen our analysis but don't result in auto-convictions on their own.
+Yes! Synapse can import and use playerlists and rulesets. These help strengthen our analysis but don't result in auto-convictions on their own.
 
 </details>
 
 <details>
 <summary><b>I paid for Synapse. What should I do?</b></summary>
 
-**You've been scammed!** Synapse is and always will be free software. Please:
+**You've been scammed!** Synapse isn't even public yet! Please:
 1. Report the scam to us immediately
 2. Request a refund/chargeback from your payment provider
 3. Help us track down the scammer
@@ -517,23 +521,22 @@ This is NOT a guarantee - you must provide compelling evidence. Legitimate false
 <details>
 <summary><b>What if I was using Synapse and got detected with a cheat?</b></summary>
 
-**Zero tolerance.** If we detect a cheat has been injected into TF2 while you're using Synapse:
+**Zero tolerance.** If we detect a cheat has been injected while you're using Synapse:
 - Automatic conviction
 - Automatic blacklist
 - No appeals
 - Permanent ban from using Synapse
 
-We will not disclose how we detect this. Don't try to cheat while using anti-cheat software.
-
+There is a reason we won't disclose how we do this, Cheat developers would just bypass it then.  
+Nice try TT, but a sensible anticheat dev wouldn't just expose how to bypass their system.  
 </details>
 
 ---
 
 ## 📜 License
 
-**This Project intentionally omits a supplementary license.** Exclusive copyright is held by the contributors.
-The source code hosted in these repository may not be copied, distributed, or modified without risk of take-downs, shake-downs, or litigation.
-For more information regarding the conditions of use where repositories omit a supplemental license; see [GitHub Terms of Service](https://docs.github.com/en/github/site-policy/github-terms-of-service#d-user-generated-content), or [the summary of 'No License' conditions](https://choosealicense.com/no-permission/).
+As synapse will not be open sourced we have decided on a proper EULA and License.  
+Yes it will be free, just not FOSS because it's an anticheat designed to stop cheaters.
 
 **Remember:** Synapse is FREE SOFTWARE. Anyone charging for it is scamming you!
 
@@ -541,15 +544,8 @@ For more information regarding the conditions of use where repositories omit a s
 
 ## 🙏 Contributing
 
-Contributions are welcome! Whether it's:
-- 🐛 Reporting false positives/negatives
-- 💡 Suggesting new features
-- 🔧 Improving detection algorithms
-- 📚 Documentation improvements
-- ⚡ Code optimization
-- 🎨 UI/UX enhancements
-
-Please open an issue or pull request on GitHub!
+We don't have a feasable way to safely open source this while being able to keep the system untampered  
+Therefore we cannot allow open source contributions, instead we will encourage suggestions on release.  
 
 ---
 
@@ -558,10 +554,7 @@ Please open an issue or pull request on GitHub!
 <details>
 <summary><b>Getting Help</b></summary>
 
-- **Issues:** Report bugs via GitHub Issues
-- **Discord:** Coming back soon
-- **Documentation:** Check our Wiki for guides
-- **FAQ:** See above for common questions
+Synapse hasn't released yet so this section is cleared for now.  
 
 </details>
 
@@ -571,14 +564,14 @@ Please open an issue or pull request on GitHub!
 
 **We're always watching.** 
 
-You should know:
-- We have insiders within your communities
-- Every "new" cheat feature gets detected
-- Our insiders remain anonymous for obvious reasons
-- By the time you think you're safe, we've already adapted
-- You're not as clever as you think
-
-The game stays fair. We make sure of it.
+You REALLY should of knew this was coming  
+- 
+Did you think i was foolish enough to just sit in the dark while you ruined my favorite game?  
+No, instead I decided to take what I learned to develop a swiss army knife against you all.  
+All of your "Undetected" softwares are *very easy* to detect with a little competence.  
+This includes those of you making those "External Kernel Cheats"  
+Take this as a warning, We only released a TF2BD list to track you.  
+We're going to enjoy when the master list goes public with nearly 100k convicts.
 
 ---
 
@@ -586,7 +579,7 @@ The game stays fair. We make sure of it.
 
 **Use responsibly and in accordance with:**
 - Server rules and policies
-- Team Fortress 2's Terms of Service
+- Valve's Terms of Service
 - Valve's community guidelines
 - Local laws and regulations
 
@@ -594,6 +587,6 @@ We are not responsible for misuse of this software. Server administrators and us
 
 ---
 
-**Made with 🔧 for the TF2 community**
+**Made with 🔧 for the gaming community**
 
-*Keeping Team Fortress 2 fair, one detection at a time.*
+*Keeping your games fair, one detection at a time.*
