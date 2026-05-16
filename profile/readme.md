@@ -1,3 +1,7 @@
+# Unsupported Games  
+The following games are going unsupported because the communities for them have been purely hostile towards our efforts  
+- CounterStrike Franchise
+
 # Synapse AntiCheat
 > In Development, Do not expect a release anytime soon
 
